@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wooden_bridge"
     tools:context=".MainActivity">
 
     <TableLayout
@@ -188,7 +189,7 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:background="#ffaa"/>
-            
+
         </TableRow>
 
     </TableLayout>
