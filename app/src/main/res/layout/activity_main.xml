@@ -1,18 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wooden_bridge"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TableRow>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="C"
+                android:background="#ffaa"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="удалить"
+                android:background="#ffaa"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="OFF"
+                android:background="#ffaa"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="+"
+                android:background="#ffaa"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="1"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="2"
+                android:layout_margin="10dp"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="3"
+                android:layout_margin="10dp"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:layout_margin="10dp"
+                android:background="#ffaa"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="4"
+                android:layout_margin="10dp"
+                android:background="#5522" />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="5"
+                android:layout_margin="10dp"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="6"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="*"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#ffaa" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="7"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="8"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#5522" />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="9"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="/"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#ffaa" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="."
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#ffaa"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="0"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#5522"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="%"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#ffaa"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="="
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#ffaa"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.core.widget.NestedScrollView>
