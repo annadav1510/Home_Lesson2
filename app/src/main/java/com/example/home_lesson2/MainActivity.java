@@ -4,9 +4,31 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "@@@";
+
+    private Button newButton;
+    private Button deleteButton;
+    private Button exitButton;
+    private Button sumButton;
+    private Button minButton;
+    private Button mulButton;
+    private Button oneButton;
+    private Button twoButton;
+    private Button threeButton;
+    private Button fourButton;
+    private Button fiveButton;
+    private Button sixButton;
+    private Button sevenButton;
+    private Button eightButton;
+    private Button nineButton;
+    private Button divisionDuttin;
+    private Button nullButton;
+    private Button pointButton;
+    private Button percentButton;
+    private Button equallyButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
