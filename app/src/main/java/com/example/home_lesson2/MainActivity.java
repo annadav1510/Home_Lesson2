@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "@@@";
@@ -34,7 +36,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        exitButton = findViewById(R.id.exit_button);
+       // exitButton.setOnClickListener(v -> onClickExit(v));
+       // exitButton.setOnClickListener(this);
         Log.d(TAG, "onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
+    }
+
+    public void onClickExit(View view) {
+        finish();
     }
 
     @Override
@@ -66,5 +75,4 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d(TAG, "onDestroy() called");
     }
-
 }
