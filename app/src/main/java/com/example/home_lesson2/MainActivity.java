@@ -38,23 +38,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         oneButton = (Button) findViewById(R.id.one_button);
-        deleteButton = (Button) findViewById(R.id.delete_button);
         newButton = (Button) findViewById(R.id.new_button);
-        exitButton = (Button) findViewById(R.id.exit_button);
         mulButton = (Button) findViewById(R.id.mul_button);
         twoButton = (Button) findViewById(R.id.two_button);
         threeButton = (Button) findViewById(R.id.three_button);
         fourButton = (Button) findViewById(R.id.four_button);
         fiveButton = (Button) findViewById(R.id.five_button);
         sixButton = (Button) findViewById(R.id.six_button);
-        exitButton = (Button) findViewById(R.id.exit_button);
         sevenButton = (Button) findViewById(R.id.seven_button);
         eightButton = (Button) findViewById(R.id.eight_button);
         nineButton = (Button) findViewById(R.id.nine_button);
         divisionButton = (Button) findViewById(R.id.division_button);
         nullButton = (Button) findViewById(R.id.null_button);
         pointButton = (Button) findViewById(R.id.point_button);
-        percentButton = (Button) findViewById(R.id.percent_button);
         equallyButton = (Button) findViewById(R.id.equally_button);
         sumButton = (Button) findViewById(R.id.sum_button);
         minButton = (Button) findViewById(R.id.min_button);
@@ -165,19 +161,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        percentButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                percentButton.setText("%");
-            }
-        });
-
         pointButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 pointButton.setText(".");
             }
         });
+
+
     }
 
 
