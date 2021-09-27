@@ -7,190 +7,281 @@
     android:background="@drawable/wooden_bridge"
     tools:context=".MainActivity">
 
+
     <TableLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical">
 
         <TableRow>
+            <EditText
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:maxLines="2"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow>
 
             <Button
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:text="C"
-                android:background="#ffaa"
-                android:layout_margin="10dp"/>
-
-            <Button
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:text="удалить"
-                android:background="#ffaa"
-                android:layout_margin="10dp"/>
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="50dp"
-                android:text="OFF"
-                android:background="#ffaa"
-                android:layout_margin="10dp"/>
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="50dp"
+                android:id="@+id/new_button"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="+"
-                android:background="#ffaa"/>
+                android:layout_weight="1"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="8dp"
+                android:text="New"
+                android:textColor="#4306EC" />
+
 
         </TableRow>
 
         <TableRow>
 
             <Button
+                android:id="@+id/one_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:text="1"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/two_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:text="2"
                 android:layout_margin="10dp"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/three_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:text="3"
                 android:layout_margin="10dp"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/min_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:text="-"
                 android:layout_margin="10dp"
-                android:background="#ffaa"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#4306EC"/>
 
         </TableRow>
 
         <TableRow>
 
             <Button
+                android:id="@+id/four_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:text="4"
                 android:layout_margin="10dp"
-                android:background="#5522" />
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707" />
 
             <Button
+                android:id="@+id/five_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:text="5"
                 android:layout_margin="10dp"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/six_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="6"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/mul_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
-                android:text="*"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#ffaa" />
+                android:text="*"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#4306EC"/>
 
         </TableRow>
 
         <TableRow>
 
             <Button
+                android:id="@+id/seven_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="7"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/eight_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="8"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#5522" />
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/nine_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="9"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
+                android:id="@+id/division_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="/"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#ffaa" />
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#4306EC"/>
 
         </TableRow>
 
         <TableRow>
 
             <Button
+                android:id="@+id/point_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="."
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#ffaa"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#4306EC"/>
 
             <Button
+                android:id="@+id/null_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="0"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#5522"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#F40707"/>
 
             <Button
-                android:layout_weight="1"
+                android:id="@+id/sum_button"
                 android:layout_width="0dp"
-                android:text="%"
+                android:layout_weight="1"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#ffaa"/>
+                android:text="+"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#4306EC"/>
 
             <Button
+                android:id="@+id/equally_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:text="="
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="#ffaa"/>
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="24dp"
+                android:padding="4dp"
+                android:textColor="#4306EC"/>
 
         </TableRow>
+
 
     </TableLayout>
 
