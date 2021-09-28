@@ -25,7 +25,7 @@
 
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/new_button"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
 
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/one_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -58,7 +58,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/two_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -72,7 +72,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/three_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -86,7 +86,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/min_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -104,7 +104,7 @@
 
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/four_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -118,7 +118,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/five_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -132,7 +132,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/six_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -146,7 +146,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/mul_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -164,7 +164,7 @@
 
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/seven_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -178,7 +178,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/eight_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -192,7 +192,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/nine_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -206,7 +206,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/division_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -224,7 +224,7 @@
 
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/point_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -238,7 +238,7 @@
                 android:padding="4dp"
                 android:textColor="#4306EC"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/null_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -252,7 +252,7 @@
                 android:padding="4dp"
                 android:textColor="#F40707"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/sum_button"
                 android:layout_width="0dp"
                 android:layout_weight="1"
@@ -266,7 +266,7 @@
                 android:padding="4dp"
                 android:textColor="#4306EC"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/equally_button"
                 android:layout_weight="1"
                 android:layout_width="0dp"
