@@ -27,17 +27,13 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/new_button"
-                android:layout_width="20dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="8dp"
                 android:text="New"
-                android:textColor="#4306EC" />
+                android:textColor="@color/white" />
 
 
         </TableRow>
@@ -46,59 +42,43 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/one_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/defauld_margin"
                 android:text="1"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/two_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="2"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/three_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="3"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/min_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="-"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#4306EC"/>
+                android:textColor="@color/white"/>
 
         </TableRow>
 
@@ -106,59 +86,43 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/four_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="4"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707" />
+                android:textColor="@color/white" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/five_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="5"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/six_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="6"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/mul_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/defauld_margin"
                 android:text="*"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#4306EC"/>
+                android:textColor="@color/white"/>
 
         </TableRow>
 
@@ -166,59 +130,43 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/seven_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="7"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/eight_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="8"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/nine_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="9"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/division_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="/"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#4306EC"/>
+                android:textColor="@color/white"/>
 
         </TableRow>
 
@@ -226,59 +174,43 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/point_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="."
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#4306EC"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/null_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="0"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#F40707"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/sum_button"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/defauld_margin"
                 android:text="+"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#4306EC"/>
+                android:textColor="@color/white"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/equally_button"
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
                 android:text="="
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_margin="@dimen/defauld_margin"
+                android:background="@color/gray"
                 android:textSize="24dp"
-                android:padding="4dp"
-                android:textColor="#4306EC"/>
+                android:textColor="@color/white"/>
 
         </TableRow>
 
