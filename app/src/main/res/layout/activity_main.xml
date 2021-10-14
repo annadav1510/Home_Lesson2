@@ -27,13 +27,8 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/new_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size_start"
-                android:text="@string/button_start"
-                android:textColor="@color/white" />
+                style="@style/button_start_style"
+                android:text="@string/button_start" />
 
 
         </TableRow>
@@ -42,43 +37,24 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/one_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
-                android:layout_margin="@dimen/defauld_margin"
                 android:text="@string/button_1"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/two_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_2"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/three_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_3"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/min_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_min"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
         </TableRow>
 
@@ -86,43 +62,23 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/four_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_4"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white" />
+                style="@style/button_style" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/five_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_5"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/six_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_6"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/mul_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
-                android:layout_margin="@dimen/defauld_margin"
                 android:text="@string/button_mult"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
         </TableRow>
 
@@ -130,43 +86,23 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/seven_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_7"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/eight_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_8"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/nine_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_9"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/division_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_div"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
         </TableRow>
 
@@ -174,43 +110,23 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/point_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_point"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/null_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_0"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/sum_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
-                android:layout_margin="@dimen/defauld_margin"
                 android:text="@string/button_sum"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/equally_button"
-                android:layout_width="@dimen/button_size"
-                android:layout_height="@dimen/button_size"
                 android:text="@string/button_equally"
-                android:layout_margin="@dimen/defauld_margin"
-                android:background="@color/gray"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white"/>
+                style="@style/button_style"/>
 
         </TableRow>
 
